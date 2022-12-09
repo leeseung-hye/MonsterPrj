@@ -1,0 +1,81 @@
+.insert {
+   background: url('images/title.png') left center no-repeat;
+   position: absolute;
+   left: 0px;
+   top: 153px;
+   height: 100px;
+   width: 400px;
+   color: white; 
+   
+ }
+ .insert h2{
+    margin-left: 120px;
+    margin-top: 33px;
+ }
+
+ .mainbox {
+   width: 1730px;
+   background: url('images/background1.jpg') no-repeat center;
+   background-size: cover;
+   border: 0px solid #fff;
+   margin-top: 0px;
+   margin-bottom: -15px;
+   margin-left: -15px;
+   padding: 5px;
+   font-family: verdana;
+   font-size: 18pt;
+   font-weight: bold;
+   height: 900px;
+}
+
+.main1 {
+   border: 0px solid #ccc;
+   margin-top: -10px;
+   margin-left: 195px;
+   margin-right: 195px;
+   padding: 11px;
+   min-height: 470px;
+   width: 1298px;
+   height: 900px;
+}
+
+.main1 > table {
+   border: 2px solid;
+   background-color: #fff;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+   width: 1200px;
+   border-collapse: collapse;
+}
+
+.main1 > table th, tr, td {
+   border: 1px solid;
+}
+.main1 th{
+   background-color: black;
+   color: #fff;
+}
+.main1 > form  > table{
+   margin-top: 100px;   
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 30px;
+   
+}
+.main1 > form > table input, select{
+   border: 1px solid;
+   font-size: 22px;   
+}
+.mid{
+   text-align: center;
+}
+.mid a{
+   color: orange;
+}
+.bot_menu{
+   text-align: center;
+}
+.search{
+   line-height: 10px;
+}

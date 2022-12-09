@@ -1,0 +1,56 @@
+.mainbox {
+   width: 1730px;
+   background: url('images/background5.jpg') no-repeat center;
+   background-size: cover;
+   border: 0px solid #fff;
+   margin-top: 0px;
+   margin-bottom: -15px;
+   margin-left: -15px;
+   padding: 5px;
+   font-family: verdana;
+   font-size: 18pt;
+   font-weight: bold;
+   height: 850px;
+}
+
+.mainImg{
+   border: 0px solid #ccc;
+   padding: 11px;
+   min-height: 470px;
+   margin: auto;
+   text-align: center;
+   background: url('images/photo1.jpg') left center no-repeat;
+   width: 1250px;
+}
+
+input {
+   border: 3px solid #ccc;
+   width: 52%;
+   font-size: 16px;
+   margin-top: -400px;
+}
+
+.insert {
+   background: url('images/title.png') left center no-repeat;
+   position: absolute;
+   top: 153px;
+   height: 100px;
+   width: 400px;
+   color: white;
+}
+
+.insert h2 {
+   margin-left: 123px;
+   margin-top: 33px;
+}
+form {
+    position: relative;
+    top: 180px;
+    right: 30px;
+} 
+form input:nth-child(4) {
+   width: 200px;
+}
+form input:nth-child(5) {
+   width: 100px;
+}

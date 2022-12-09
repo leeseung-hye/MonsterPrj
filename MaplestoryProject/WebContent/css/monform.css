@@ -1,0 +1,97 @@
+.insert {
+   background: url('images/title.png') left center no-repeat;
+   position: absolute;
+   left: 0px;
+   top: 153px;
+   height: 100px;
+   width: 400px;
+   color: white;
+}
+
+.insert h2 {
+   margin-left: 80px;
+   margin-top: 33px;
+}
+
+.mainbox {
+   width: 1730px;
+   background: url('images/background3.png') no-repeat center;
+   background-size: cover;
+   border: 0px solid #fff;
+   margin-top: 0px;
+   margin-bottom: -15px;
+   margin-left: -15px;
+   padding: 5px;
+   font-family: verdana;
+   font-size: 18pt;
+   font-weight: bold;
+   height: 850px;
+}
+
+.main1 {
+   border: 0px solid #ccc;
+   margin-top: -10px;
+   margin-left: 195px;
+   margin-right: 195px;
+   padding: 11px;
+   min-height: 470px;
+   width: 1298px;
+   height: 850px;
+}
+.main1 h{
+   text-align: center;
+}
+.main1 table {
+   background-color: #fff;
+   border: 2px solid;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+   border-collapse: collapse;
+   text-align: center;
+}
+.main1 th{
+   background-color: black;
+   color: #fff;
+   border: 1px solid;
+}
+
+.main1 input {
+   border: 1px solid;
+   font-family: verdana;
+   font-size: 18pt;
+   height: 37px;
+}
+
+.main1 select {
+   border: 1px solid;
+   font-family: verdana;
+   font-size: 18pt;
+   width: 322px;
+   height: 37px;
+}
+
+.category {
+   border: 1px solid;
+   width: 204px
+}
+
+.button input{
+   margin-left: 90px;
+   margin-right: 90px;
+}
+
+.main1 a {
+   background-color: #fff;
+   border: 2px solid;
+   margin-left: 598px;
+   margin-right: 598px;
+   padding: 3px;
+}
+.main1 h3{
+   margin-top: 100px;
+   margin-left: 400px;
+   margin-right: 400px;
+   text-align: center;
+   margin-bottom: 50px;
+}

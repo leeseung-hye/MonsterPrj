@@ -1,0 +1,65 @@
+#container {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+#footer {
+    float: left;
+    width: 100%;
+    height: 220px;
+    background: #2f3238;
+}
+.footer_info {
+    float: left;
+    margin-top: 46px;
+}
+.footer_info ul {
+    float: left;
+}
+.footer_info ul li:first-child {
+    padding-left: 0px;
+    background: none;
+}
+.footer_info ul li {
+    float: left;
+    padding: 0 13px;
+    font-size: 12px;
+    background: url(https://ssl.nexon.com/s2/game/maplestory/renewal/common/footer_line.png) left center no-repeat;
+}
+.footer_info ul li a {
+    color: #b1b3b9;
+}
+.footer_info p {
+    line-height: 1.5;
+    margin-top: 21px;
+    font-size: 11px;
+    color: #b1b3b9;
+}
+.licensee {
+    text-decoration: underline;
+}
+.licensee a {
+    color: #b1b3b9;
+}
+.copyright {
+    float: left;
+    width: 100%;
+    margin-top: 3px;
+    font-size: 11px;
+    color: #888888;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+.footer_logo {
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+}
+.footer_logo a:first-child {
+    margin-top: 1px;
+    margin-right: 16px;
+}
+.footer_logo img{
+    margin-left: -2px;
+    width: 53px;
+    height: 30px;
+}

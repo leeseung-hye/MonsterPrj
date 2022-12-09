@@ -1,0 +1,93 @@
+
+#wrap {
+    /* float: left; */
+    width: 100%;
+    min-width: 1800px;
+    height: 100%;
+    overflow: hidden;
+}
+#header_guide {
+    position: relative;   
+    float: left;
+    width: 100%;
+    height: 250px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+    letter-spacing: -0.03em;   
+    font-family: 'Gowun Dodum', sans-serif;
+}
+.fix_menu {
+    z-index: 100000001;
+    height: 73px !important;
+}
+.fix_menu .logo {
+    height: 52px !important;
+    top: 8px !important;
+}
+.div_inner {
+    position: relative;
+    padding: 0 40px;
+    width: 1800px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    z-index: 9999;
+    height: 83px;
+}
+.logo img {
+    width:151px; 
+    margin-top:-11px; 
+    height: 68px;
+}
+.top_menu {
+    position: absolute;
+    left: 170px;
+    top: 25px;
+    z-index: 999;
+}
+.top_menu > li {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 173px;
+    height: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+.top_menu a{
+   color: white;
+}
+.top_menu_wrap {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.sub_banner_wrap {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.sub_banner_wrap img {
+    margin-left: -960px;
+    height: 100%;
+    width: 100%;
+    max-height: 250px;
+}
+a {   font-family: 'Gowun Dodum', sans-serif;
+    text-decoration: none;
+    color: black;
+}

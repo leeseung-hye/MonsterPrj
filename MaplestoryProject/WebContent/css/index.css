@@ -1,0 +1,59 @@
+<style>
+* {
+   font-family: 'Black Han Sans', sans-serif;
+   font-family: 'Gowun Dodum', sans-serif;
+   font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+   text-align: center;
+   margin-top: 30px;
+   font-size: 58px;
+   color: darkorange;
+   margin-bottom: -2rem;
+}
+
+.search-bar {
+   width: 500px;
+}
+
+.myButton {
+   box-shadow: inset 0px 1px 0px 0px #fce2c1;
+   background: linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+   background-color: #ffc477;
+   border-radius: 6px;
+   border: 1px solid #eeb44f;
+   display: inline-block;
+   cursor: pointer;
+   color: #ffffff;
+   font-family: 'Black Han Sans', sans-serif;
+   font-family: 'Gowun Dodum', sans-serif;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 15px 184px;
+   text-decoration: none;
+   text-shadow: 0px 1px 0px #cc9f52;
+}
+
+.myButton:hover {
+   background: linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+   background-color: #fb9e25;
+}
+
+.myButton:active {
+   position: relative;
+   top: 1px;
+}
+
+.profile {
+   margin: 0;
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+img {
+   margin-top: 400px;
+}
+</style>
